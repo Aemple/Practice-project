@@ -1,0 +1,45 @@
+
+.container{
+  margin-top: 6em;
+}
+
+.btn{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 40px;
+  font-family: cursive;
+    font-size: 25px;
+  color: rgb(55, 170, 166) ;
+  border-radius: 10px;
+}
+
+.btn:active{
+  transform: translate(0, 5px);
+  -webkit-transform: translate(0, 5px);
+  border-bottom: 1px solid;
+}
+
+.animate{
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.blue{
+  background-color: #42a5f5;
+  border-bottom: 5px solid #1565c0;
+}
+
+.red{
+  background-color: #ef5350;
+  border-bottom: 5px solid #c62828;
+}
+
+.green{
+  background-color: #9ccc65;
+  border-bottom: 5px solid #558b2f;
+}
+
+.yellow{
+  background-color: #ffca28;
+  border-bottom: 5px solid #ff8f00;
+}
